@@ -35,5 +35,5 @@ shortest () {
 
 print_log () {
     now=$(date +%F" "%R)
-    echo "["$now"]" $1
+    echo "["$now"]" $*
 }
